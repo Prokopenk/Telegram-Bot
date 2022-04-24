@@ -2,7 +2,7 @@ import random
 import telebot, wikipedia, re
 from telebot import types
 
-bot = telebot.TeleBot('5203856987:AAGrqdOfp9TI5STsX_-N7zJVyyXeboPjIiI')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
